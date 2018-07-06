@@ -1,14 +1,16 @@
 ---
 ---
 
-$text-color: #46433A;
-$anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+$text-color:rgb(77, 72, 74);
+$anchor-text-color: #7FDBFF;
+$background-color: white;
 
 body {
 	font-family: 'Vollkorn', serif;
 	color: $text-color;
 	background-color: $background-color;
+	font-size: 17px;
+	line-height: 24px;
 }
 
 header,
@@ -60,14 +62,11 @@ since it must be aligned with the content */
 }
 
 .logo {
-	width: 96px;
-	height: 96px;
+	width: 160px;
+	height: 160px;
 	display: inline-block;
 	background-size: cover;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
 	border: 2px solid $background-color;
-	box-shadow: 0 0 0 3px $text-color;
 }
 
 /*** author ***/
@@ -132,7 +131,7 @@ footer {
 	aligned right */
 	header {
 		float: left;
-		width: 46%;
+		width: 31%;
 		text-align: right;
 	}
 
@@ -143,8 +142,8 @@ footer {
 	}
 
 	main {
-		width: 46%;
-		margin-left: 54%;
+		width: 56%;
+		margin-left: 43%;
 		padding: 0;
 	}
 }
